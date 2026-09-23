@@ -18,7 +18,7 @@ pipeline {
         
         stage('Run Linter') {
             steps {
-                
+                bat 'pip install flake8'
                 bat 'flake8 app.py'
             }
         }
