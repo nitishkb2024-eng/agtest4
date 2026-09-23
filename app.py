@@ -1,4 +1,3 @@
-import sys  # Unused import added here
-
+import sys 
 def greet(name):
     print(f"Hello, {name}!")
